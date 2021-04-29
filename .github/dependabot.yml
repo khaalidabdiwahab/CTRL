@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: telethon
+    versions:
+    - 1.19.1
+    - 1.19.2
+    - 1.19.4
+    - 1.19.5
+    - "1.20"
+    - "1.21"
+  - dependency-name: python-telegram-bot
+    versions:
+    - "13.1"
+    - "13.2"
+    - "13.3"
