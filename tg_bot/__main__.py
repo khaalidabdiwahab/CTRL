@@ -27,11 +27,11 @@ def escape_html(word):
     return escape(word)
 
 PM_START_TEXT = """
-Hey {}, my name is **{}**! Im a group management Bot... 
+Hey {}, magacaygu waa **{}**! waxaan ahay bot maareeya groupyada... 
 
-Maintained by  [This guy](tg://user?id={}).
+Maintaiwaxaa i sameeyey  [qofkaan](tg://user?id={}).
 
-Press /help for all available commands !👍
+Press /help taabo si aad caawin guud u heshid !👍
 
 """
 
@@ -40,21 +40,21 @@ Press /help for all available commands !👍
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+Hello! magacaygu waa *{}*.
 
-*Main* available commands:
- - /start: Start the bot...
- - /help: help....
- - /donate: To find out more about donating!
+*Main* amarada hada aan diyaarsan:
+ - /start: Kici botka...
+ - /help: caawin....
+ - /donate: wax badan oo ku saabsan donating!
  - /settings:
-   - in PM: To find out what SETTINGS you have set....
-   - in a group:
+   - in PM: si aad heshid waxyaalaha SETTINGS aad saartay ....
+   - groupka dhexdiisa:
 
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not CUSTOM_CMD else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Hey  you can Donate  to Marie Creator [Paul](t.me/sonoflars), as well as [AVATAR](t.me/Refundisillegal) for better server #ktnxbye."""
+DONATE_STRING = """Hey waxaad donate garayn kartaa ikhtiraacaha Marie [Paul](t.me/sonoflars), ama aniga🤏😎 [KHAALID](t.me/mohamett_updywahab) 🤏🙂."""
 
 
 IMPORTED = {}
